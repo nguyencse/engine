@@ -22,7 +22,7 @@ vars = {
 
   # 'dart_sdk_revision': '381ec0cb7e82e08a0daf8b58ad07eb961935a2a1',
   # 'dart_sdk_git': 'git@github.com:shorebirdtech/dart-sdk.git',
-  'updater_git': 'https://github.com/shorebirdtech/updater.git',
+  'updater_git': 'https://github.com/nguyencse/updater.git',
   'updater_rev': 'd785568094c176d956ccf7ae918bf8d64c0d09b7',
 
   # WARNING: DO NOT EDIT canvaskit_cipd_instance MANUALLY
