@@ -20,8 +20,8 @@ vars = {
   'ocmock_git': 'https://github.com/erikdoe/ocmock.git',
   'skia_revision': '5046d9fc1551e025263a21eb0bb9f0b63569600e',
 
-  'dart_sdk_revision': '381ec0cb7e82e08a0daf8b58ad07eb961935a2a1',
-  'dart_sdk_git': 'git@github.com:shorebirdtech/dart-sdk.git',
+  # 'dart_sdk_revision': '381ec0cb7e82e08a0daf8b58ad07eb961935a2a1',
+  # 'dart_sdk_git': 'git@github.com:shorebirdtech/dart-sdk.git',
   'updater_git': 'https://github.com/shorebirdtech/updater.git',
   'updater_rev': 'd785568094c176d956ccf7ae918bf8d64c0d09b7',
 
@@ -328,8 +328,8 @@ deps = {
   'src/build/secondary/third_party/protobuf':
    Var('fuchsia_git') + '/protobuf-gn' + '@' + Var('dart_protobuf_gn_rev'),
 
-  'src/third_party/dart':
-   Var('dart_sdk_git') + '@' + Var('dart_sdk_revision'),
+  # 'src/third_party/dart':
+  # Var('dart_sdk_git') + '@' + Var('dart_sdk_revision'),
 
   # WARNING: Unused Dart dependencies in the list below till "WARNING:" marker are removed automatically - see create_updated_flutter_deps.py.
 
