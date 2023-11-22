@@ -262,7 +262,7 @@ allowed_hosts = [
 ]
 
 deps = {
-  'src': 'https://github.com/shorebirdtech/buildroot.git' + '@' + '57142b8c014b36fb051df5a5278d3817b72d113e',
+  'src': 'https://github.com/nguyencse/buildroot.git' + '@' + '57142b8c014b36fb051df5a5278d3817b72d113e',
 
    # Fuchsia compatibility
    #
@@ -328,8 +328,8 @@ deps = {
   'src/build/secondary/third_party/protobuf':
    Var('fuchsia_git') + '/protobuf-gn' + '@' + Var('dart_protobuf_gn_rev'),
 
-  # 'src/third_party/dart':
-  # Var('dart_sdk_git') + '@' + Var('dart_sdk_revision'),
+  'src/third_party/dart':
+  Var('dart_git') + '@' + Var('dart_revision'),
 
   # WARNING: Unused Dart dependencies in the list below till "WARNING:" marker are removed automatically - see create_updated_flutter_deps.py.
 
