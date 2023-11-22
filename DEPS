@@ -262,7 +262,7 @@ allowed_hosts = [
 ]
 
 deps = {
-  'src': 'https://github.com/nguyencse/buildroot.git' + '@' + '3f9db9dfdce1ff42a2cf70172f6db12b5d8ef09a',
+  'src': 'https://github.com/nguyencse/buildroot.git' + '@' + 'e950bcbc32ff4a8c574e4862ff8b9bc61c81a550',
 
    # Fuchsia compatibility
    #
@@ -737,7 +737,7 @@ deps = {
      'packages': [
        {
         'package': 'flutter/android/sdk/all/${{platform}}',
-        'version': 'version:34v7'
+        'version': 'version:33v6'
        }
      ],
      'condition': 'download_android_deps',
