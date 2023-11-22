@@ -262,7 +262,7 @@ allowed_hosts = [
 ]
 
 deps = {
-  'src': 'https://github.com/nguyencse/buildroot.git' + '@' + '57142b8c014b36fb051df5a5278d3817b72d113e',
+  'src': 'https://github.com/nguyencse/buildroot.git' + '@' + '3f9db9dfdce1ff42a2cf70172f6db12b5d8ef09a',
 
    # Fuchsia compatibility
    #
