@@ -23,7 +23,7 @@ vars = {
   'dart_sdk_revision': '063c854bc4f55fafc2cf09aad74f0357c4fe69be',
   'dart_sdk_git': 'https://github.com/nguyencse/dart-sdk.git',
   'updater_git': 'https://github.com/nguyencse/updater.git',
-  'updater_rev': 'd785568094c176d956ccf7ae918bf8d64c0d09b7',
+  'updater_rev': '6f7e369c1224c370b357bc0d82be8bb634fa56bb',
 
   # WARNING: DO NOT EDIT canvaskit_cipd_instance MANUALLY
   # See `lib/web_ui/README.md` for how to roll CanvasKit to a new version.
